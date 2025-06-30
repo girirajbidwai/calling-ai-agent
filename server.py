@@ -12,11 +12,11 @@ from typing import TypedDict, List
 import numpy as np
 
 # Environment variables
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB-b31_MOH9WlYfg70W0yKGITDycZ85KJ8"
-os.environ["PINECONE_API_KEY"] = "pcsk_3M2zCN_nMqUvwtnMW4LdTa5w9QzjyjNEz5NiCNowqAc1FJnj64Yx5gqKnPCY5MS9XV3BK"
-os.environ["TWILIO_ACCOUNT_SID"] = "AC4e827d688a8c99019fe75e54b50df0f1"
-os.environ["TWILIO_AUTH_TOKEN"] = "403b58d924a623356765ddaa6021863b"
-os.environ["TWILIO_PHONE_NUMBER"] = "12292672049"
+os.environ["GOOGLE_API_KEY"] = ""
+os.environ["PINECONE_API_KEY"] = ""
+os.environ["TWILIO_ACCOUNT_SID"] = ""
+os.environ["TWILIO_AUTH_TOKEN"] = ""
+os.environ["TWILIO_PHONE_NUMBER"] = ""
 
 # Initialize Twilio client
 twilio_client = Client(os.environ["TWILIO_ACCOUNT_SID"], os.environ["TWILIO_AUTH_TOKEN"])
